@@ -9,7 +9,7 @@ canvas {
 
 
 /* Mobile Styles */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 8000px) {
     /* Adjust styles for smaller screens */
     body {
         display: flex;
@@ -19,10 +19,10 @@ canvas {
     }
 
     #gameContainer {
-        width: 40%; /* Adjust the width as needed */
+        width: 100%; /* Adjust the width as needed */
     }
 
     #submitBtn {
-        margin-top: 1000px; /* Adjust the margin as needed */
+        margin-top: 100px; /* Adjust the margin as needed */
     }
 }
