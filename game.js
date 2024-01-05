@@ -45,8 +45,8 @@ function displayGame() {
     for (let i = 0; i < remainingNames.length; i++) {
         const row = Math.floor(i / 4);
         const col = i % 4;
-        const x = col * 200;
-        const y = row * 150;
+        const x = col * 75;
+        const y = row * 125;
 
         ctx.fillStyle = clickedNames.includes(remainingNames[i]) ? 'gray' : 'black';
         ctx.fillRect(x, y, 75, 125);
