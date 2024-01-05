@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #gameContainer {
+            position: relative;
+        }
+
+        #gameCanvas, #heartCanvas {
+            border: 1px solid black; /* Add border for visualization */
+        }
+
+        #heartCanvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        #submitBtn {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameContainer">
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        <canvas id="heartCanvas" width="800" height="30"></canvas>
+    </div>
+    <button id="submitBtn" onclick="checkCategory()">Submit</button>
+    <script src="game.js"></script>
+</body>
+</html>
