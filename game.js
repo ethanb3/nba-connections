@@ -60,7 +60,7 @@ function displayGame() {
         const heartSize = 30;
         const heartPadding = 5;
         const heartX = i * (heartSize + heartPadding) + heartPadding;
-        const heartY = 200;
+        const heartY = 50;
 
         drawHeart(heartX, heartY, heartSize);
     }
