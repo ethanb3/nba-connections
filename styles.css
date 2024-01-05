@@ -6,3 +6,23 @@ body {
 canvas {
     display: block;
 }
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 600px) {
+    /* Adjust styles for smaller screens */
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    #gameContainer {
+        width: 90%; /* Adjust the width as needed */
+    }
+
+    #submitBtn {
+        margin-top: 10px; /* Adjust the margin as needed */
+    }
+}
