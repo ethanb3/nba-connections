@@ -49,7 +49,7 @@ function displayGame() {
         const y = row * 150;
 
         ctx.fillStyle = clickedNames.includes(remainingNames[i]) ? 'gray' : 'black';
-        ctx.fillRect(x, y, 20, 15);
+        ctx.fillRect(x, y, 50, 75);
         ctx.fillStyle = 'white';
         ctx.font = '12px Arial'; // Adjusted font size to fit names
         ctx.fillText(remainingNames[i], x + 20, y + 50);
