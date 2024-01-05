@@ -51,7 +51,7 @@ function displayGame() {
         ctx.fillStyle = clickedNames.includes(remainingNames[i]) ? 'gray' : 'black';
         ctx.fillRect(x, y, 75, 125);
         ctx.fillStyle = 'white';
-        ctx.font = '12px Arial'; // Adjusted font size to fit names
+        ctx.font = '9px Arial'; // Adjusted font size to fit names
         ctx.fillText(remainingNames[i], x + 20, y + 50);
     }
 
