@@ -85,10 +85,11 @@ function checkCategory() {
 
         if (remainingNames.length === 0) {
             // alert('Congratulations! You cleared all names.');
-            alert('Won an Assist title: Chris Paul, Rondo, Westbrook, Harden,
-            Was Undrafted: Fred VanVleet, Austin Reeves, Alex Caruso, TJ McConnell,
-            Was a DPOY: Marcus Smart, Dwight Howard, Draymond Green, Ben Wallace,
-            Went to Kansas: Embiid, Wilt, Andrew Wiggins, Christian Braun');
+            alert('Congratulations! You cleared all names.' +
+            '\n\nWon an Assist title: Chris Paul, Rondo, Westbrook, Harden,' +
+            '\nWas Undrafted: Fred VanVleet, Austin Reeves, Alex Caruso, TJ McConnell,' +
+            '\nWas a DPOY: Marcus Smart, Dwight Howard, Draymond Green, Ben Wallace,' +
+            '\nWent to Kansas: Embiid, Wilt, Andrew Wiggins, Christian Braun');
 
             
 
