@@ -88,7 +88,7 @@ function checkCategory() {
             alert('Won an Assist title: Chris Paul, Rondo, Westbrook, Harden,
     Was Undrafted: Fred VanVleet, Austin Reeves, Alex Caruso, TJ McConnell,
     Was a DPOY: Marcus Smart, Dwight Howard, Draymond Green, Ben Wallace,
-    Went to Kansas: Embiid, Wilt, Andrew Wiggins, Christian Braun')
+    Went to Kansas: Embiid, Wilt, Andrew Wiggins, Christian Braun');
             // Optionally, you can choose to end the game or reset here based on your needs.
         }
 
