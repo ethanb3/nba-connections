@@ -85,6 +85,10 @@ function checkCategory() {
 
         if (remainingNames.length === 0) {
             alert('Congratulations! You cleared all names.');
+            alert('Won an Assist title: Chris Paul, Rondo, Westbrook, Harden,
+    Was Undrafted: Fred VanVleet, Austin Reeves, Alex Caruso, TJ McConnell,
+    Was a DPOY: Marcus Smart, Dwight Howard, Draymond Green, Ben Wallace,
+    Went to Kansas: Embiid, Wilt, Andrew Wiggins, Christian Braun')
             // Optionally, you can choose to end the game or reset here based on your needs.
         }
 
@@ -100,20 +104,20 @@ function checkCategory() {
             // Optionally, you can choose to end the game or reset here based on your needs.
         } else {
 
-            if (clickedCategory.size === 2 && clickedNames.length === 4) {
-                alert('Your guess contained words from 2 categories');
+            // if (clickedCategory.size === 2 && clickedNames.length === 4) {
+            //     alert('Your guess contained words from 2 categories');
 
-            }
+            // }
 
-            if (clickedCategory.size === 3 && clickedNames.length === 4) {
-                alert('Your guess contained words from 3 categories');
+            // if (clickedCategory.size === 3 && clickedNames.length === 4) {
+            //     alert('Your guess contained words from 3 categories');
 
-            }
+            // }
 
-            if (clickedCategory.size === 4 && clickedNames.length === 4) {
-                alert('Your guess contained words from all 4 categories');
+            // if (clickedCategory.size === 4 && clickedNames.length === 4) {
+            //     alert('Your guess contained words from all 4 categories');
 
-            }
+            // }
 
             alert(`Wrong category! Lives remaining: ${lives}`);
             displayGame(); // Redraw to update remaining lives
