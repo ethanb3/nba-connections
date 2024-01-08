@@ -128,7 +128,7 @@ canvas.addEventListener('click', function (event) {
     const mouseY = event.clientY - rect.top;
     alert(mouseX);
 
-    const clickedIndex = Math.floor(mouseY / 150) * 4 + Math.floor(mouseX / 20);
+    const clickedIndex = Math.floor(mouseY / 125) * 4 + Math.floor(mouseX / 75);
     const clickedName = remainingNames[clickedIndex];
 
     if (clickedName) {
